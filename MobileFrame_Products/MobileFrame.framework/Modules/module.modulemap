@@ -1,0 +1,11 @@
+framework module MobileFrame {
+  umbrella header "MobileFrame.h"
+
+  export *
+  module * { export * }
+}
+
+module MobileFrame.Swift {
+    header "MobileFrame-Swift.h"
+    requires objc
+}
